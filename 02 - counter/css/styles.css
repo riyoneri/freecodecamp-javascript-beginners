@@ -37,3 +37,22 @@ button {
     border: 3px solid #102B42;
     color: #102B42;
 }
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0 30px;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .number {
+        font-size: 5rem;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
